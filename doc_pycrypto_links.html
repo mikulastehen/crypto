@@ -1,0 +1,26 @@
+<h2>PyCryptodome</h2>
+
+<p>PyCryptodome is a Python module that implements cryptographic primitives and many useful utilities, such as padding schemes and key export/import functions. It can be easily installed with the command: <br><br>
+
+<font face="courier">pip install pycryptodome</font></p>
+
+<p>In PyCryptodome, cryptographic primitives, like ciphers and hash functions, are represented as objects, which have attributes and functions (or methods). So typically, the programmer has to create an instance of the desired primitive with the <font face="courier">new()</font> function (e.g., <font face="courier">cipher = AES.new(...)</font>) and then s/he can access its parameters as the attributes of the object and call its functions (e.g., <font face="courier">cipher.encrypt(...)</font>). The <font face="courier">new()</font> function can take input arguments that are used to initialize the primitive (e.g., <font face="courier">cipher = AES.new(key, AES.MODE_CBC, iv)</font>).</p>
+
+<p>The best way to get familiar with PyCryptodome is to read its API documentation available at:<br><br>
+
+<a href="https://pycryptodome.readthedocs.io/en/latest/src/api.html" target="_blank">https://pycryptodome.readthedocs.io/en/latest/src/api.html</a><br><br>
+
+and to start trying the provided examples thereof.</p>
+
+</p>For this exercise, the following parts of PyCryptodome's API documentation must be read before the exercise session:
+<ul>
+	<li>AES block cipher: <a href="https://pycryptodome.readthedocs.io/en/latest/src/cipher/aes.html" target="_blank">https://pycryptodome.readthedocs.io/en/latest/src/cipher/aes.html</a></li>
+	<li>CBC mode: <a href="https://pycryptodome.readthedocs.io/en/latest/src/cipher/classic.html#cbc-mode" target="_blank">https://pycryptodome.readthedocs.io/en/latest/src/cipher/classic.html#cbc-mode</a></li>
+	<li>Random generation: <a href="https://pycryptodome.readthedocs.io/en/latest/src/random/random.html" target="_blank">https://pycryptodome.readthedocs.io/en/latest/src/random/random.html</a></li>
+	<li>Padding schemes: <a href="https://pycryptodome.readthedocs.io/en/latest/src/util/util.html#crypto-util-padding-module" target="_blank">https://pycryptodome.readthedocs.io/en/latest/src/util/util.html#crypto-util-padding-module</a></li>
+	<li>PBKDF2 key derivation function: <a href="https://pycryptodome.readthedocs.io/en/latest/src/protocol/kdf.html#Crypto.Protocol.KDF.PBKDF2" target="_blank">https://pycryptodome.readthedocs.io/en/latest/src/protocol/kdf.html#Crypto.Protocol.KDF.PBKDF2</a></li>
+	<li>SHA-256 hash function: <a href="https://pycryptodome.readthedocs.io/en/latest/src/hash/sha256.html" target="_blank">https://pycryptodome.readthedocs.io/en/latest/src/hash/sha256.html</a></li>
+	<li>RSA key pair generation: <a href="https://pycryptodome.readthedocs.io/en/latest/src/public_key/rsa.html" target="_blank">https://pycryptodome.readthedocs.io/en/latest/src/public_key/rsa.html</a></li>
+	<li>RSA-OAEP cipher: <a href="https://pycryptodome.readthedocs.io/en/latest/src/cipher/oaep.html" target="_blank">https://pycryptodome.readthedocs.io/en/latest/src/cipher/oaep.html</a></li>
+	<li>RSA-PSS digital signature: <a href="https://pycryptodome.readthedocs.io/en/latest/src/signature/pkcs1_pss.html" target="_blank">https://pycryptodome.readthedocs.io/en/latest/src/signature/pkcs1_pss.html</a></li>
+</ul></p>

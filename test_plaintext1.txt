@@ -1,0 +1,10 @@
+Laboratory of Cryptography and System Security (CrySyS Lab)
+===========================================================
+
+The laboratory was involved in the forensic analysis of several high-profile targeted attacks.[4]
+
+In October 2011, CrySyS Lab discovered the Duqu malware;[5] pursued the analysis of the Duqu malware and as a result of the investigation, identified a dropper file with an MS 0-day kernel exploit inside;[6] and finally released an new open-source Duqu Detector Toolkit[7] to detect Duqu traces and running Duqu instances.
+
+In May 2012, the malware analysis team at CrySyS Lab participated in an international collaboration aiming at the analysis of an as yet unknown malware, which they call sKyWIper. At the same time Kaspersky Lab analyzed the malware Flame[8] and Iran National CERT (MAHER)[9] the malware Flamer. Later, these malwares turned out to be the same.
+
+Other analysis published by CrySyS Lab include the password analysis of the Hungarian ISP, Elender, and a thorough Hungarian security survey of servers after the publications of the Kaminsky DNS attack.[10]
